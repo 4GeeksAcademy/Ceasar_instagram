@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.img{
+    display: flex;
+    size-adjust: 10px;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+div.Post-header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.Post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding-left:200px;
+    text-align: right;
+    font-size: 10px;
+}
+
+div.post{
+    width:600px;
+    margin:auto;
+}
+
+div.post-body {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.test:after {
+    content: '\2807';
+    font-size: 30px;
+    padding-left: 55px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.post-icon {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    padding-bottom: 10px;
+    
+}
+
+.h_container{
+    border-radius: 20px;
+    display: flex;
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    flex-direction: row;
+    padding-right: 200px;
+}
+
+.book{
+    padding-left: 320px;
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+#heart{
+    font-size: 25px;
+}
+
+#comment{
+    font-size: 23px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+#share{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+div.ht5 img{
+    display: flex;
+    border-radius: 20px;
+    width: 30px;
+}
+
+div.area{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+div.post-body {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin: 0;
+}
+p:first-child{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+p:last-child {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
